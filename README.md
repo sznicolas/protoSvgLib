@@ -46,7 +46,10 @@ Display and verify the tokenURI data with [tokenURItoSVG.py](scripts/tokenURItoS
  - Define an extensible proxy contract
 
 ## Example Support the Project
-Based on this lib, EthSvgLogo is a collectible ERC721. Soon on opensea ( 0x52434Cd9e4e4F965a20c8576841CbAAC4b2bA30e ).
+Based on this lib, EthSvgLogo is a collectible ERC721. 
+[Mint it](https://etherscan.io/address/0x8c458118cbf0627c82f732979f4d03ce0a7dc1ad#writeContract) (0.01 Eth per Token)  
+Or buy it on [OpenSea](https://opensea.io/collection/ethsvglogo-v2) ( 0x52434Cd9e4e4F965a20c8576841CbAAC4b2bA30e )  
+If you want to support my work.
 <img src="img/logoEth.svg" width="120" height="160" />
 ## Caveats
 In order to reduce the storage size, the datas are expressed in uint8, so we cannot define floats for the coordinates.
