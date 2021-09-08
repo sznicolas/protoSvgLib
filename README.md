@@ -30,6 +30,12 @@ Parameters:
 | 2   | f6        | Blue,            |
 | 3   | ff        | Alpha (Opacity)  |
 
+### Other functions
+ - `function startSvg(uint _x, uint _y, uint _length, uint _width) external view returns (bytes memory)` Returns a `"<svg viewBow="..." mlns='http://www.w3.org/2000/svg'>"`
+ - `function endSvg()` returns "</svg>"
+ - `function ellipse(bytes memory _b) external view returns (bytes memory)` where bytes is encoded as above
+ - `function path(bytes memory _b, string memory _path) external view returns (bytes memory)` will be improved and optimized soon
+
 [Deployed contract](https://etherscan.io/address/0xfcd62e3c95a351493e1b7d9e8cdf1ee10d54feb6)
 
 ## Tools
