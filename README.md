@@ -30,6 +30,8 @@ Parameters:
 | 2   | f6        | Blue,            |
 | 3   | ff        | Alpha (Opacity)  |
 
+[Deployed contract](https://etherscan.io/address/0xfcd62e3c95a351493e1b7d9e8cdf1ee10d54feb6)
+
 ## Tools
 Display and verify the tokenURI data with [tokenURItoSVG.py](scripts/tokenURItoSVG.py). Useful when integrated in Brownie scripts.
 
@@ -38,7 +40,9 @@ Display and verify the tokenURI data with [tokenURItoSVG.py](scripts/tokenURItoS
  - Define an extensible proxy contract
 
 ## Example Support the Project
-EthSvgLogo on opensea ( 0x52434Cd9e4e4F965a20c8576841CbAAC4b2bA30e )... Soon. 
+Based on this lib, EthSvgLogo is a collectible ERC721. Soon on opensea ( 0x52434Cd9e4e4F965a20c8576841CbAAC4b2bA30e ).
+<svg viewBox='0 0 118 208' xmlns='http://www.w3.org/2000/svg'><g class='l'><polygon class='c250' points='64 78 64 0 0 106' /><polygon class='c251' points='64 78 64 0 128 106' /><polygon class='c252' points='64 78 64 144 0 106' /><polygon class='c253' points='64 78 64 144 128 106' /><polygon class='c252' points='64 208 64 156 0 118' /><polygon class='c253' points='64 208 64 156 128 118' /></g><style>.c250{ fill: rgba(239,204,194,255);}</style><style>.c251{ fill: rgba(184,250,247,255);}</style><style>.c252{ fill: rgba(136,170,241,255);}</style><style>.c253{ fill: rgba(202,179,246,255);}</style><style>.l{animation:a 2s infinite ease-in-out alternate;transform-origin:50px 50px;stroke-linejoin:round;stroke-width:.5;stroke: #88a;} @keyframes a{from{transform:scale(.9);filter:sepia(79%);}}</style></svg>
 
-[Deployed contract](https://etherscan.io/address/0xfcd62e3c95a351493e1b7d9e8cdf1ee10d54feb6)
-
+## Caveats
+In order to reduce the storage size, the datas are expressed in uint8, so we cannot define floats for the coordinates.
+This is my first smart contract deployed on mainnet. 
