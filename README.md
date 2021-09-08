@@ -1,7 +1,7 @@
 # protoSvgLib
 
 ## Purpose
-ProtoSvgLib provides the first onchain SVG tool. It provides some primitives which helps to reduce the gas fees for who wants to deploy a smart contract generating SVG. The storage size is also lowered since the data are encoded.
+ProtoSvgLib provides the first onchain SVG toolbox. It provides some primitives which helps to reduce the gas fees for who wants to deploy a smart contract generating SVG. The storage size is also lowered since the data are encoded.
 
 Warning: this contract is a Proof of Concept.
 
